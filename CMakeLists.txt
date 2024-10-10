@@ -55,4 +55,4 @@ function(add_demo NAME)
   target_link_libraries(${NAME} glfw)
 endfunction()
 
-add_demo(01_mesa_llvmpipe_swrast_delete_ubo_binding)
+add_demo(01_mesa_llvmpipe_delete_ubo_binding)
